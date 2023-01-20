@@ -14,4 +14,4 @@ connct()
 app.use("/api/users", loginRoutes);
 app.use("/api/posts", postRoutes)
 
-app.listen(3000, () => console.log("Our server is up and running at port 3000"));
+app.listen(3000, () => console.log("This server is up and running at port 3000"));
